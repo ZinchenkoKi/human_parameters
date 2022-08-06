@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Руководство пользователя
+Приложение «Система обработки физиологических параметров человека» обеспечивает следующие функции:
+Считывание физиологических параметров.
+Сохранение физиологических параметров.
+Сравнение физиологических параметров с предыдущими показателями.
+Сравнение физиологических параметров со стандартными показателями.
+
+При запуске приложения мы видим главное рабочее окно, на котором и будут происходить основные манипуляции с физиологическими параметрами человека. На верней панели есть несколько вкладок: 
+Меню
+Порт
+Помощь
+О приложении
+Во вкладке «Меню» есть несколько подпунктов, предназначенных для сохранения файлов и пункт для выхода из приложения:
+Сохранить
+Сохранить как 
+Выход
+При нажатии на пункт «сохранить» открывается окно, которое предлагает выбрать место сохранения файла его название и формат.
+Пункт «сохранить как» практически идентичен пункту «сохранить»  с одним отличием в том, что если у нас уже есть готовый файл, то при выборе пункта «сохранить» он будет перезаписан, а при выборе пункта «сохранить как» будет предоставлен выбор между созданием нового файла и обновлением старого.  Пункт «Выход» закрывает приложение.
+Вкладка «Порт» содержит несколько подпунктов:
+Открыть
+Параметры порта
+Скрыть настройки порта
+При нажатии на «Открыть» происходит открытие выборного порта для подключения. Если не выбирать какие либо параметры приложения будет использовать стандартные паромеры. Для внесения изменений и использования своих параметров необходимо выбрать пункт «Параметры порта» при нажатии откроется вкладка с настройками порта, в которой можно изменить:
+Количество производимых измерений
+Название порта
+Частоту
+При вводе количества производимых измерений мы изменяем количество считываемых показаний. Название порта позволяет выбрать необходимый нам порт можно выбрать название из списка или выбрать пункт ручной ввод и ввести название в поле чуть ниже. Частота позволяет ввести параметр частоты порта, который мы будем использовать.
+
+После введения необходимых параметров, что бы изменения вступили в силу необходимо нажать на кнопку «Применить параметры порта» но, если нажать на кнопку когда поле пустое, то появится сообщение что необходимо ввести необходимый параметр для сохранения. Если необходимо оставить какой-то параметр неизменным, то можно ввести стандартное значение. Стандартные значения порта: 
+Название порта - "COM1".
+Количество измерений – 10.
+Частота – 9600.
+Во время работы в приложении мы можем переключаться между вкладками «Работа с показаниями» и «Настройка порта». Пункт «Скрыть настройки порта» позволяет закрыть вкладку настроек порта.
+
+</value>
+  </data>
+</root>
